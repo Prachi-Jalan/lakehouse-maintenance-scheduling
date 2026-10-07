@@ -1,0 +1,12 @@
+version: 1
+id: phase1_noise_floor
+phases:
+- id: noise_floor_phase
+  sessions:
+  - tasks:
+    - template_id: q1
+    - template_id: q3
+    - template_id: q6
+    - template_id: q12
+    - template_id: q14
+    - template_id: q18

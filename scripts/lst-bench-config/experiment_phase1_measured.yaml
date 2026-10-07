@@ -1,0 +1,12 @@
+version: 1
+id: phase1_noise_floor_measured
+repetitions: 20
+metadata:
+  system: spark
+  system_version: 3.3.4
+  table_format: iceberg
+  table_format_version: 1.4.3
+  phase: measured
+parameter_values:
+  catalog: local
+  database: tpch

@@ -1,0 +1,12 @@
+version: 1
+id: phase1_repetition_test
+repetitions: 3
+metadata:
+  system: spark
+  system_version: 3.3.4
+  table_format: iceberg
+  table_format_version: 1.4.3
+  phase: repetition_test
+parameter_values:
+  catalog: local
+  database: tpch

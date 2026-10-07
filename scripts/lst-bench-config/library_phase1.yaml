@@ -1,0 +1,20 @@
+version: 1
+task_templates:
+- id: q1
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query1.sql
+- id: q3
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query3.sql
+- id: q6
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query6.sql
+- id: q12
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query12.sql
+- id: q14
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query14.sql
+- id: q18
+  files:
+  - /Users/prachijalan/capstone/lst-bench/core/run/spark-3.3.1/scripts/tpch/single_user/query18.sql

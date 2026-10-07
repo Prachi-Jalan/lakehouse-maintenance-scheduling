@@ -1,0 +1,13 @@
+# Target system under test (Spark)
+sut:
+  driver: "org.apache.hive.jdbc.HiveDriver"
+  url: "jdbc:hive2://localhost:10000/default"
+  username: ""
+  password: ""
+
+# Telemetry storage (DuckDB)
+telemetry:
+  driver: "org.duckdb.DuckDBDriver"
+  url: "jdbc:duckdb:/Users/prachijalan/capstone/telemetry/lst_telemetry.duckdb"
+  username: ""
+  password: ""

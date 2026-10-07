@@ -1,0 +1,30 @@
+# Python
+spark-venv/
+__pycache__/
+*.pyc
+
+# Generated data (large, regenerable via dbgen)
+data/tpch-sf1/*.tbl
+tpch-dbgen/
+
+# Iceberg warehouse (binary table data, regenerable via loader script)
+warehouse/
+
+# Jars (large binaries, redownloadable)
+*.jar
+
+# Spark distribution
+spark-3.3.4-bin-hadoop3/
+
+# LST-Bench (external cloned tool, document setup in README instead)
+lst-bench/
+
+# Telemetry DB (binary, regenerable by re-running experiments)
+telemetry/*.duckdb
+
+# Derby metastore leftovers
+metastore_db/
+derby.log
+
+# macOS
+.DS_Store
